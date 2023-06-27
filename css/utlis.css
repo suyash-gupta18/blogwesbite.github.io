@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+:root
+{
+    --main-bg-color:red;
+    --font-1:'Roboto';
+    --font-2: 'Inti';
+    --font-3:'Texa';
+    --font-4: "Baloo Bhaina 2", cursive;
+}
+.maxwidth1
+{
+   width: 80vw;
+}
+.maxwidth2
+{
+    width: 60vw;
+}
+.maxwidth3
+{
+    width: 68vw;
+}
+.mauto
+{
+  margin: auto;
+}
+.form-input {
+    padding: 3px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    /* font-family: var(--font1); */
+  }
+.btn
+{
+    margin: 0px 1px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover
+{
+    background-color: rgb(223, 73, 73);
+}
